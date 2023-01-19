@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*
+{
+  margin:0;
+  padding:0;
+  font-family: "Quicksand","sans-serif";
+}
+
+.banner{
+  width:100%;
+  height:100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(about.webp);
+  background-size:cover;
+  background-position: center;
+}
+
+.content{
+  width:100%;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
